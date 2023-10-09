@@ -1,0 +1,23 @@
+@import url('reset.css');
+@import url('menu.css');
+@import url('gameArea.css');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 85.7vh;
+  background-image: url("../images/wall.png");
+}
+
+.enemy {
+  background-image: url("../images/ralph.png");
+  background-size: cover;
+}
+
+.player--img {
+  height: 3.75em;
+}
+
+.title--placar {
+  color: red;
+}
